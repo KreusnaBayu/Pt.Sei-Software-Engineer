@@ -1,4 +1,6 @@
 ## Required
+- [Backend] - Jawaban Untuk Nomer 1
+- [Frontend] - Jawaban Untuk Nomer 2
 
 
 ## Tech
