@@ -1,0 +1,113 @@
+/* Styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px 0 0 0; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    min-height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to bottom, #008037 11%, #ffffff 80%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    width: 100%; 
+    box-sizing: border-box;
+    margin: 40px auto; 
+    
+}
+.container h1 {
+    text-align: center; 
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk label form */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Gaya untuk input form */
+input[type="text"],
+input[type="datetime-local"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+/* Gaya untuk tombol Update */
+.btn-update {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Warna tombol Update */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-update:hover {
+    background-color: #0056b3; /* Warna saat hover pada tombol Update */
+}
+
+
+
+
+.btn-delete {
+    width: 100%;
+    padding: 10px;
+    background-color: red; /* Warna tombol Delete */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-delete:hover {
+    background-color: darkred; /* Warna saat hover pada tombol Delete */
+}
+
+
+.alert-success {
+    color: green;
+    background-color: #d4edda;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid green;
+}
+
+.alert-error {
+    color: red;
+    background-color: #f8d7da;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+}
+
+

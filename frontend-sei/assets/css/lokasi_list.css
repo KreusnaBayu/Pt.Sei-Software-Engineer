@@ -1,0 +1,107 @@
+/* Styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 40px 0 0 0; /* Menambahkan padding-top */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Ubah align-items menjadi flex-start */
+    min-height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to bottom, #008037 20%, #ffffff 80%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Sesuaikan lebar maksimum */
+    width: 100%; /* Membuat container responsif */
+    box-sizing: border-box;
+    margin: 40px auto; /* Menambahkan margin atas dan bawah */
+    display: flex;
+    flex-direction: column;
+    align-items: center;/
+}
+
+/* Gaya untuk navigasi */
+.navigation {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+    color: #000000;
+    border-bottom: 2px solid #1100fa;
+}
+
+.separator {
+    margin-right: 10px;
+    color: #aaa;
+}
+
+.h1 {
+    color: #fff;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Styling untuk tombol */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add {
+    background-color: #28a745; /* Warna latar belakang tombol (Hijau) */
+    margin-top: 20px;
+}
+
+.btn-add:hover {
+    background-color: #218838; /* Warna latar belakang saat di-hover (Hijau gelap) */
+}
+
+.btn-warning {
+    background-color: #007bff; /* Warna latar belakang tombol Edit */
+    margin-right: 10px;
+}
+
+.btn-warning:hover {
+    background-color: #0056b3; /* Warna latar belakang saat di-hover (Kuning gelap) */
+}
+
+

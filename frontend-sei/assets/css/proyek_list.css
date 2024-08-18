@@ -1,0 +1,148 @@
+/* Styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 40px 0 0 0; /* Menambahkan padding-top */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Ubah align-items menjadi flex-start */
+    min-height: 100vh;
+}
+
+
+
+.container {
+    background: linear-gradient(to bottom, #008037 4.5%, #ffffff 80%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Sesuaikan lebar maksimum */
+    width: 100%; /* Membuat container responsif */
+    box-sizing: border-box;
+    margin: 40px auto; /* Menambahkan margin atas dan bawah */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Gaya untuk navigasi */
+.navigation {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+    color: #000000;
+    border-bottom: 2px solid #1100fa;
+}
+
+.separator {
+    margin-right: 10px;
+    color: #aaa;
+}
+
+.h1 {
+    color: #fff;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    width: 100%; /* Mengisi lebar container */
+    max-width: 600px; /* Maksimum lebar card */
+}
+
+
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+.card-content {
+    margin-bottom: 12px;
+}
+
+
+.card-footer {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Styling untuk list di dalam card */
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styling untuk item list di dalam card */
+.card ul li {
+    margin-bottom: 8px;
+    
+}
+
+/* Styling untuk link di dalam card */
+.card a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
+.btn-edit {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Menghapus garis bawah */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    font-size: 16px; /* Ukuran teks */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    border: none; /* Menghapus border default */
+    cursor: pointer; /* Menjadikan kursor pointer saat di-hover */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+.btn-edit:hover {
+    background-color: #0056b3; /* Warna latar belakang saat di-hover */
+}
+
+.btn-add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Warna latar belakang tombol (Hijau) */
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Menghapus garis bawah */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    font-size: 16px; /* Ukuran teks */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    border: none; /* Menghapus border default */
+    cursor: pointer; /* Menjadikan kursor pointer saat di-hover */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+.btn-add:hover {
+    background-color: #218838; /* Warna latar belakang saat di-hover (Hijau gelap) */
+}

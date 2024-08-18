@@ -1,0 +1,77 @@
+/* Styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px 0 0 0; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    min-height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to bottom, #008037 11%, #ffffff 80%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    width: 100%; 
+    box-sizing: border-box;
+    margin: 40px auto; 
+    
+}
+.container h1 {
+    text-align: center; 
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk label form */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Gaya untuk input form */
+input[type="text"],
+input[type="datetime-local"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk tombol submit */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks */
+    border: none; /* Menghapus border default */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    font-size: 16px; /* Ukuran teks */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    cursor: pointer; /* Menjadikan kursor pointer saat di-hover */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Warna latar belakang saat di-hover */
+}
